@@ -1,11 +1,11 @@
 p = 263
 y_1 = 9
-y_2 = 237
+y_2 = 165
 m = 131
 
 for i in range(2, p):
     inv = -1
-    for j in range(p):
+    for j in range(1, p):
         if ((y_1**i) * j) % p == 1:
             inv = j
 
